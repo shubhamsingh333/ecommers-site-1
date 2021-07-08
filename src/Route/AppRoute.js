@@ -39,7 +39,7 @@ const AppRoute = () => {
                 <Route path="/officeaddressDetails" component={OfficeAddress} />
                 <Route path="/paymentOptions" component={PaymentOptions} />
                 <Route path="/profile" component={Profile} />
-                <Route path="" component={NotFoundPage} />
+                <Route path="" component={NotFoundPage} /> 
                
             </Switch>
         </Grid>
